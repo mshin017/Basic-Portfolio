@@ -4,7 +4,8 @@ body {
 
 .navigation {
     font-family: "Georgia", Times, 'Times New Roman', Times, serif, serif;
-    padding:20px;
+    padding-top:20px;
+    padding-bottom: 9px;
     background: #ffffff;
     margin-top: 0px;
     width: auto;
@@ -21,6 +22,7 @@ a:hover, a:active {
 
 #leftnav {
      float: left;
+     position: relative;
 }
 
 #leftnav li {
@@ -28,11 +30,10 @@ a:hover, a:active {
     color: white;
     font-size: 23px;
     background-color: #4aaaa5;
-    height: 40px;
     padding: 25px;
     margin-top: 0px;
-    margin-left: 320px;
     text-align: center;
+    right: 50px;
 
 }
 
@@ -62,23 +63,29 @@ ul li {
     height: 500px;
 }
 
-#header {
+.header {
     font-family: "Georgia", Times, 'Times New Roman', Times, serif, serif;
     font-size: 20px;
     font-weight: bolder;
     color: #4aaaa5;
     padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: solid;
+    border-color: #dddddd;
 }
 
-
+p{ 
+    padding: 20px;
+}
 .content{
-    width: 700px;
-    height: 390px;
+    width: 960px;
+    height: 500px;
     border:solid;
     border-color:#dddddd;
     border-width: 1px;
     background: #ffffff;
     color: #777777;
+    margin-top: 20px;
     margin-left:auto;
     margin-right: auto;
     padding-top: 10px;
@@ -94,7 +101,8 @@ img{
     float: left;
     width: 200px;
     height: 200px;
-    padding: 20px;
+    padding: 15px;
+    
 }
 
 .footer {
@@ -109,13 +117,18 @@ img{
     bottom: 0;
 }
 
- form {
+form {
      margin: 50px;
-     transition: all 4s ease-in-out;
 
  }
 
- .form-control {
+ .contact-form {
+    margin: 10px, auto;
+
+ }
+ 
+
+ /* .form-control {
      width: 500px;
      background: #ffffff;
      border: 2px;
@@ -124,10 +137,34 @@ img{
      font-size: 18px;
      line-height: 24px;
      margin-right: auto;
-     margin-left: auto;
- }
+     margin-left: auto; } */
+ 
 
+input [type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    line-height: 15px;
+}
 
+input [type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+input [type=submit]:hover {
+    background-color: #4aaaa0;
+
+}
 /*  `float`, `padding`, `margin`, `display`, 
 `overflow`, `clear` and `text-align`. */
 
