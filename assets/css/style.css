@@ -1,0 +1,79 @@
+.navigation {
+    font-family: "Georgia", Times, 'Times New Roman', Times, serif, serif;
+    padding:20px;
+    background: #ffffff;
+    margin-top: 0px;
+    width: auto;
+    height: 40px;
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    border-bottom-color:#cccccc
+}
+a:hover, a:active {
+    background-color: darkgray;
+    width: auto;
+    margin: 10px;
+}
+
+#leftnav {
+     float: left;
+}
+
+#leftnav li {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    height: 40px;
+    padding: 25px;
+    margin-top: 0px;
+    margin-left: 150px;
+
+}
+
+ul li {
+    list-style-type: none;
+    display:inline;
+    text-decoration: none;
+}
+
+#rightnav {
+    float: right;
+}
+
+#rightnav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-size: 14px;
+    color: #eeeeeee0;
+  
+    
+}
+
+.container {
+    background-image: url('../images/seigaiha.png');
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #666666;
+    margin-top: 30px;
+    width: 100%;
+    min-height: 40px;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5
+}
+
+
+/*  `float`, `padding`, `margin`, `display`, 
+`overflow`, `clear` and `text-align`. */
+
+/* * Main header background color: `#ffffff`
+* Main header border color: `#cccccc`
+* Footer background color: `#666666`
+* Main content background color: `#ffffff`
+* Main content border color: `#dddddd` */
